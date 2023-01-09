@@ -1,0 +1,29 @@
+  {
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2022",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noUnusedLocals": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "skipLibCheck": true,
+      "keyofStringsOnly": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "lib": [
+        "ES2022"
+      ]
+    },
+    "include": [
+      "**/*",
+      "*",
+      "config/**/*.yml",
+      "config/**/*.json"
+    ],
+  }
